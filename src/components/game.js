@@ -65,10 +65,7 @@ const Game = () => {
     console.log("input", isInput);
   }, []);
 
-  // const handleInputchange =(event) =>{
-  //   setBoard(event.target.value)
 
-  // }
 
   const submit = async () => {
     setBoard([].concat(...isInput));
